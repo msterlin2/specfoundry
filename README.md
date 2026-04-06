@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Spec Foundry
 
 Turn a one-sentence product idea into a complete, agent-executable specification pack — ready to hand to Claude Code, Codex, or any other autonomous coding agent.
@@ -306,3 +307,7 @@ specfoundry/
 ## License
 
 MIT
+=======
+# specfoundry
+Used to turn ideas into LLM consumable specs using structured interactive questioning.
+>>>>>>> 814290e1ba7f3a3f59d0096bbc0fa24e7dca547f
