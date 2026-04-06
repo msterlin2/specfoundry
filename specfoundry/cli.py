@@ -6,8 +6,13 @@ import sys
 from pathlib import Path
 
 import click
+from dotenv import load_dotenv
 from rich.console import Console
 from rich.panel import Panel
+
+# Load .env from the current working directory (or any parent) before
+# anything reads os.environ, so ANTHROPIC_API_KEY etc. are available.
+load_dotenv()
 
 from . import __version__
 from .llm.base import make_client

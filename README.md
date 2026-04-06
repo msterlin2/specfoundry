@@ -59,12 +59,15 @@ source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -e .
 ```
 
-Set your API key:
+Set your API key. You can export it as an environment variable, or create a `.env` file in the project root (recommended):
 
 ```bash
+# Option A — .env file (loaded automatically at startup)
+echo "ANTHROPIC_API_KEY=sk-ant-..." > .env
+
+# Option B — environment variable
 export ANTHROPIC_API_KEY=sk-ant-...   # default provider
-# or
-export OPENAI_API_KEY=sk-...
+export OPENAI_API_KEY=sk-...          # if using OpenAI
 ```
 
 ---
