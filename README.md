@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Spec Foundry
 
 Turn a one-sentence product idea into a complete, agent-executable specification pack — ready to hand to Claude Code, Codex, or any other autonomous coding agent.
