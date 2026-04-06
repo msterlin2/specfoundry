@@ -4,6 +4,8 @@ Turn a one-sentence product idea into a complete, agent-executable specification
 
 Spec Foundry runs a structured requirements interview, builds a machine-readable Spec IR (intermediate representation), generates a multi-file markdown spec pack, validates cross-spec consistency, produces a DOT architecture graph, and writes a ready-to-use build prompt.
 
+Inspired by software factories as described by https://factory.strongdm.ai/. This hopefully helps with createing the spec and .dot file to feed into the factory.
+
 ---
 
 ## How it works
